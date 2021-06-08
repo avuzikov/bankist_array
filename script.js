@@ -164,7 +164,7 @@ btnLogin.addEventListener('click', function (event) {
     updateUI(currentAccount);
   }
 });
-/*my code:)
+/*
 btnTransfer.addEventListener('click', function (event) {
   event.preventDefault();
   const receiver = accounts.find(acc => acc.username === inputTransferTo.value);
